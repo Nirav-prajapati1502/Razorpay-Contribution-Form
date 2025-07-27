@@ -39,7 +39,7 @@ const createOrder = async (req, res) => {
             name: "Contribution Point",
         });
     } catch (err) {
-        console.log(err);
+        console.error("Error in createOrder:",err);
         res.status(500).json({ error: 'Failed to create order' });
     }
 };
