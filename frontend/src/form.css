@@ -1,0 +1,91 @@
+.maincard {
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #f7f8f8;
+  color: #08bfbe;
+}
+
+.tipsection {
+  background-color: #d7efef;
+  border-radius: 10px;
+}
+
+.paymentbutton {
+  background-color: #01bfbd;
+  color: white;
+  border-radius: 20px;
+}
+
+.span {
+  color: #01bfbd;
+}
+
+.forminfo {
+  color: #01bfbd;
+}
+
+.a {
+  cursor: pointer;
+  color: blueviolet;
+}
+
+.amountbtn {
+  border-radius: 20px;
+}
+
+.amountinput {
+  border-radius: 20px;
+  border: 0;
+}
+
+.active-amount {
+  background-color: #01bfbd;
+  color: white;
+}
+
+.p1 {
+  font-style: italic;
+}
+
+.p3 {
+  font-weight: 500;
+}
+
+.inputdata {
+  border: none;
+  border-bottom: 2px solid #01bfbd;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.inputdata:focus {
+  border-bottom: 2px solid #01bfbd;
+  outline: none;
+  box-shadow: none;
+  background-color: transparent !important;
+}
+
+.amountbtn:focus {
+  box-shadow: none;
+}
+
+.tipselect:focus {
+  box-shadow: none;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+}
+
+.paymentbutton:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width:320px) {
+  .maincard {
+    box-shadow: none !important;
+  }
+}
