@@ -8,13 +8,13 @@ require('dotenv').config();
 
 const { sequelize } = require('./src/db');
 const contributionRouter = require('./src/contributionRouter');
-const { handleWebhook } = require('./src/webhookController');
+// const { handleWebhook } = require('./src/webhookController');
 
 app.use(cors());
 app.use(bodyParser.json());
 
 app.use('/', contributionRouter);
-app.post('/webhook', express.raw({ type: 'application/json' }), handleWebhook);
+// app.post('/webhook', express.raw({ type: 'application/json' }), handleWebhook);
 
 let Port = 5000;
 
