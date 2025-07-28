@@ -10,11 +10,12 @@ Test API Keys:
               RAZORPAY_KEY_ID=rzp_test_SnZUKNH0j6UXSI
               RAZORPAY_KEY_SECRET=WP4Gwpg2AtEVqssYDoWL6Zh8
               
+While filling the form data,in phone number add your actual number because while payment process you will receive the otp ( if you don't receive otp then use otp : 123456 )                
 Test Card Details (for successful payment):
                                            Card Number: 4191 8802 1699 0917
                                            Expiry: Any future date (e.g., 12/26)
                                            CVV: 123
-                                           OTP: 123456 (or any)
+                                           OTP: 123456 ( if you receive otp then add that received otp )
                                            
 *Setup instructions:
 
@@ -36,13 +37,8 @@ Test Card Details (for successful payment):
 *Sample .env file for Razorpay credentials:
   Create a .env file inside the /backend folder
   PORT=5000
-  RAZORPAY_KEY_ID=your_razorpay_key_id
-  RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-  RAZORPAY_WEBHOOK_SECRET=your_webhook_secret
-  DB_HOST=localhost
-  DB_USER=root
-  DB_PASSWORD=your_mysql_password
-  DB_NAME=contribution           
+  RAZORPAY_KEY_ID=rzp_test_SnZUKNH0j6UXSI
+  RAZORPAY_KEY_SECRET=WP4Gwpg2AtEVqssYDoWL6Zh8      
 
 *API structure and sample requests/responses:
   Create Razorpay order
